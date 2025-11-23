@@ -21,7 +21,7 @@ export const OrgCard = ({ id, name, image, memberCount }: OrgCardProps) => {
           <div className="flex gap-2 items-center">
             <Avatar className="rounded-sm size-10">
               <AvatarImage src={image ?? undefined} alt={name} />
-              <AvatarFallback className="max-w-xs text-md font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
+              <AvatarFallback className="max-w-xs text-md font-semibold leading-10 tracking-tight text-black dark:text-zinc-50 rounded-lg">
                 {name.charAt(0).toUpperCase()}
               </AvatarFallback>
             </Avatar>
