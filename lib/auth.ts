@@ -31,3 +31,10 @@ export const auth = betterAuth({
     },
   },
 })
+
+export interface AuthType {
+  user: typeof auth.$Infer.Session.user | null
+  session: typeof auth.$Infer.Session | null
+  organization: typeof auth.$Infer.Organization | null
+  activeMember: typeof auth.$Infer.Member | null
+}

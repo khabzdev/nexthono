@@ -10,7 +10,7 @@ import {
   signUpSchema,
 } from '@/lib/validation/auth'
 import { Form } from '../ui/form'
-import { AuthContext, type AuthMode } from './AuthContext'
+import { AuthContext, type AuthMode } from './authContext'
 import {
   ConfirmPasswordField,
   EmailField,
@@ -18,7 +18,7 @@ import {
   SubmitButton,
   SwitchMode,
   Title,
-} from './AuthFields'
+} from './authFields'
 
 interface AuthFormProps {
   mode: AuthMode

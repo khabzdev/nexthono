@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 import toast from 'react-hot-toast'
-import AuthForm from '@/components/auth/AuthForm'
+import AuthForm from '@/components/auth/authForm'
 import { signUp } from '@/lib/auth-client'
 import type { SignInData } from '@/lib/validation/auth'
 

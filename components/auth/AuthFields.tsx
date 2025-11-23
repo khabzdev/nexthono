@@ -8,7 +8,7 @@ import {
 import { Input } from '@/components/ui/input'
 import { Button } from '../ui/button'
 import { Spinner } from '../ui/spinner'
-import { useAuthContext } from './AuthContext'
+import { useAuthContext } from './authContext'
 
 export const Title = () => {
   const { mode } = useAuthContext()
